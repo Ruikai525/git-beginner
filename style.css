@@ -1,0 +1,49 @@
+/* Basic Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #007BFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #444;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Contact section */
+p:last-child {
+  font-style: italic;
+  color: #555;
+}
+
+/* Optional card layout */
+.container {
+  max-width: 600px;
+  background: white;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
